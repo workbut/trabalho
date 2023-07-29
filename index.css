@@ -1,24 +1,33 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
 body{
     width: 100vw;
     height: 100vh;
-    position: relative;
     margin: 0%;
     padding: 0%;
-    background-image: url(index.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     
+    
+}
+main{
+    position: relative;
+    width: 600px;
+    height: 800px;
+    margin: auto;
 }
 
 
+
+
 a{
+    border: 1px solid black;
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 40vh;
-    left: 68vw;
+    top: 50%;
+    left: 50%;
     font-size: 1.5em;
     transform: translate(-50%,-50%);
     padding: 30px 120px;
@@ -29,5 +38,11 @@ a{
 a:hover{
     background-color: rgb(255, 255, 0);
 }
-
-
+img#gif{
+    position: absolute;
+    top: 45%;
+    left: 74.5%;
+    width: 120px;
+    height: 120px;
+    
+}

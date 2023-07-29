@@ -1,2 +1,0 @@
-# trabalho
- trabalho de física

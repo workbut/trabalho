@@ -12,12 +12,14 @@
     --cor5:#9B0FA5;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     margin: 0%;
     padding: 0%;
-    background-image: url(index2.gif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
     
 }
@@ -83,10 +85,27 @@ img#gif2{
 p{
     position: absolute;
     display: block;
-    top: 80%;
+    top: 90%;
     left: 50%;
     font-family: 'arquivos';
     color: var(--cor1);
     font-size: 1.3em;
     transform: translate(-50%,-50%);
+}
+img#cima_me{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    
+}
+img#lado{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 88.5%;
+    left: 15%;
+
 }
